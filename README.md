@@ -12,9 +12,15 @@
 独立 Basic + ext4。结构为 GPT → 单成员 MD RAID1 / metadata 1.2 /
 llbitmap → 普通线性 LVM → ext4。Basic 单成员不提供冗余。
 
-当前状态：**0.1.0 实验验收通过，等待发布位置确认，尚未公开发布。**
+**0.1.0：已通过本文限定范围的实验验收。**
 安装、升级、回退、卸载重装、持续读写和样本模拟掉电恢复均已通过；
 范围和证据见 [测试记录](docs/TESTING.md)。
+
+下载：[v0.1.0 Release](https://github.com/LJAYi/fnos-storage-compat/releases/tag/v0.1.0)。
+选择 `fnos-storage-compat-v0.1.0-omv8-debian13-amd64.tar` 离线包，先按 Release
+的 `SHA256SUMS` 校验归档，再解包并阅读 `docs/INSTALL.md`。对应第三方源码另附
+`fnos-storage-compat-v0.1.0-corresponding-source.tar`；GitHub 自动生成的 Source code
+压缩包只有本项目代码，不能替代这个对应源码归档。
 
 ## 交付
 

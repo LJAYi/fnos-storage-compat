@@ -1,6 +1,8 @@
 {
   "project_version": "0.1.0",
-  "status": "lab-release-gates-passed-publication-destination-pending",
+  "status": "lab-release-gates-passed",
+  "repository": "https://github.com/LJAYi/fnos-storage-compat",
+  "release_tag": "v0.1.0",
   "target": "OMV 8 / Debian 13 / amd64 / BIOS",
   "source_version": "7.2.6-1~bpo13+1",
   "source_tar_sha256": "48820cf63130e3b611127bc455009b365f1dbfae069612d812557ae5f1da0723",

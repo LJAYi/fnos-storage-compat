@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 — prepared 2026-10-14; publication pending
+## 0.1.0 — 2026-10-14
 
 - Freeze existing OMV 8 / Debian 13 / amd64 / BIOS Basic + ext4 support.
 - Preserve the already tested fnos2 kernel and mdadm binary bytes.
