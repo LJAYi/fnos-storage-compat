@@ -1,0 +1,16 @@
+{
+  "project_version": "0.1.0",
+  "status": "lab-release-gates-passed-publication-destination-pending",
+  "target": "OMV 8 / Debian 13 / amd64 / BIOS",
+  "source_version": "7.2.6-1~bpo13+1",
+  "source_tar_sha256": "48820cf63130e3b611127bc455009b365f1dbfae069612d812557ae5f1da0723",
+  "baseline_config_sha256": "7a3ea73df2859e8705d874b24e199c5b5e2990314cf1e06b4b4380248a314663",
+  "candidate_config_sha256": "6b7ffd510ffdda2ccc66cbeff8740fe028440d2553c991baa8525769cdc90e0c",
+  "candidate_kernelrelease": "7.2.6-fnos2-amd64",
+  "candidate_localversion": "-fnos2-amd64",
+  "candidate_kernel_package_version": "7.2.6-1~fnos13+2",
+  "image_deb_sha256": "8e6123b3bcd2c66bd942457d8f148e6557d6e30e711705b54bc13ad560ecc7af",
+  "headers_deb_sha256": "b5b9a13ec751a2d3de1987c69d6ed88057531a6c668cab2d3ccdaa1fa47c3c8f",
+  "mdadm_deb_sha256": "5e8c7343c7fcad67757f51612eb7d7f1e9922aa13768824f2fe883a96c6f5dba",
+  "entry_deb_sha256": "b98fd3a996710686b5d347cead0725ee50f8a8e9ff403fdeb5956fc79dc31dfe"
+}

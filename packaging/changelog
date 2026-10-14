@@ -1,0 +1,8 @@
+omv-fnos-support (0.1.0) trixie; urgency=medium
+
+  * Freeze the existing OMV 8 / Debian 13 / amd64 / BIOS Basic-ext4 scope.
+  * Promote the existing fnos2 kernel and optional mdadm backport unchanged.
+  * Add distribution, source, installation and rollback documentation.
+  * No new runtime features, compatibility targets or maintainer scripts.
+
+ -- fnOS Storage Compat contributors <root@localhost>  Wed, 14 Oct 2026 20:45:00 +0800

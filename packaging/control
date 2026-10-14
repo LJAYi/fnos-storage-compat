@@ -1,0 +1,13 @@
+Package: omv-fnos-support
+Version: 0.1.0
+Section: admin
+Priority: optional
+Architecture: amd64
+Maintainer: fnOS Storage Compat contributors <root@localhost>
+Depends: base-files (>= 13), base-files (<< 14), openmediavault (>= 8), openmediavault (<< 9), linux-image-7.2.6-fnos2-amd64 (= 7.2.6-1~fnos13+2), linux-headers-7.2.6-fnos2-amd64 (= 7.2.6-1~fnos13+2), mdadm (>= 4.6-3~fnos13+1), mdadm (<< 4.7~), lvm2, e2fsprogs, kmod
+Description: Community fnOS Basic storage compatibility for OMV 8
+ Tracks a tested kernel and userspace combination for Debian 13 amd64 BIOS.
+ Scope: single-member MD RAID1 with llbitmap, ordinary LVM and ext4.
+ This dependency package does not assemble, mount, convert or share disks,
+ change OMV configuration, or reboot. Normal dependency hooks still apply.
+ Other layouts, platforms and Secure Boot are not validated.
